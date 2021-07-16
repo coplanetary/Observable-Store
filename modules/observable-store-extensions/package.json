@@ -1,6 +1,6 @@
 {
   "name": "@codewithdan/observable-store-extensions",
-  "version": "2.2.8",
+  "version": "2.2.9",
   "author": "Dan Wahlin",
   "description": "Observable Store redux devtools extension.",
   "license": "MIT",
@@ -27,17 +27,11 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "rxjs": "^6.4.0",
-    "@codewithdan/observable-store": "^2.2.9"
+    "rxjs": ">=6.4.0 <8",
+    "@codewithdan/observable-store": ">=2.2.12"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.5.1",
-    "@types/history": "^4.7.4",
-    "jasmine": "^3.5.0",
-    "jasmine-spec-reporter": "^4.2.1",
-    "jasmine-ts": "^0.3.0",
-    "ts-node": ">=3.2.0 <8",
     "typescript": "3.6.4",
-    "rxjs": "^6.4.0"
+    "rxjs": "^7.2.0"
   }
 }
